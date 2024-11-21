@@ -1,0 +1,802 @@
+[
+    {
+        "stockID": "S001",
+        "name": "Phone",
+        "category": "Electronics",
+        "quantity": 100,
+        "price": 128.39,
+        "expiry": "2025-01-20"
+    },
+    {
+        "stockID": "S002",
+        "name": "Marker",
+        "category": "Stationery",
+        "quantity": 54,
+        "price": 436.18,
+        "expiry": "2025-10-04"
+    },
+    {
+        "stockID": "S003",
+        "name": "Mask",
+        "category": "Healthcare",
+        "quantity": 56,
+        "price": 118.71,
+        "expiry": "2024-06-01"
+    },
+    {
+        "stockID": "S004",
+        "name": "Rice",
+        "category": "Groceries",
+        "quantity": 40,
+        "price": 399.72,
+        "expiry": "2025-06-05"
+    },
+    {
+        "stockID": "S005",
+        "name": "Pants",
+        "category": "Clothing",
+        "quantity": 69,
+        "price": 454.26,
+        "expiry": "2025-11-16"
+    },
+    {
+        "stockID": "S006",
+        "name": "Mask",
+        "category": "Healthcare",
+        "quantity": 98,
+        "price": 18.2,
+        "expiry": "2025-09-25"
+    },
+    {
+        "stockID": "S007",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 25,
+        "price": 277.36,
+        "expiry": "2024-12-28"
+    },
+    {
+        "stockID": "S008",
+        "name": "Shoes",
+        "category": "Clothing",
+        "quantity": 97,
+        "price": 26.73,
+        "expiry": "2025-05-16"
+    },
+    {
+        "stockID": "S009",
+        "name": "Thermometer",
+        "category": "Healthcare",
+        "quantity": 53,
+        "price": 133.75,
+        "expiry": "2025-05-22"
+    },
+    {
+        "stockID": "S010",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 33,
+        "price": 485.12,
+        "expiry": "2024-11-11"
+    },
+    {
+        "stockID": "S011",
+        "name": "Jacket",
+        "category": "Clothing",
+        "quantity": 64,
+        "price": 416.9,
+        "expiry": "2024-02-20"
+    },
+    {
+        "stockID": "S012",
+        "name": "Shirt",
+        "category": "Clothing",
+        "quantity": 36,
+        "price": 310.45,
+        "expiry": "2025-02-15"
+    },
+    {
+        "stockID": "S013",
+        "name": "Bandages",
+        "category": "Healthcare",
+        "quantity": 40,
+        "price": 212.21,
+        "expiry": "2024-11-24"
+    },
+    {
+        "stockID": "S014",
+        "name": "Pen",
+        "category": "Stationery",
+        "quantity": 76,
+        "price": 375.65,
+        "expiry": "2024-10-25"
+    },
+    {
+        "stockID": "S015",
+        "name": "Jacket",
+        "category": "Clothing",
+        "quantity": 65,
+        "price": 415.98,
+        "expiry": "2024-11-12"
+    },
+    {
+        "stockID": "S016",
+        "name": "Camera",
+        "category": "Electronics",
+        "quantity": 66,
+        "price": 366.35,
+        "expiry": "2024-01-26"
+    },
+    {
+        "stockID": "S017",
+        "name": "Sugar",
+        "category": "Groceries",
+        "quantity": 11,
+        "price": 241.44,
+        "expiry": "2025-07-18"
+    },
+    {
+        "stockID": "S018",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 49,
+        "price": 89.29,
+        "expiry": "2024-10-30"
+    },
+    {
+        "stockID": "S019",
+        "name": "Thermometer",
+        "category": "Healthcare",
+        "quantity": 48,
+        "price": 82.9,
+        "expiry": "2024-05-20"
+    },
+    {
+        "stockID": "S020",
+        "name": "Pants",
+        "category": "Clothing",
+        "quantity": 5,
+        "price": 405.41,
+        "expiry": "2025-01-22"
+    },
+    {
+        "stockID": "S021",
+        "name": "Notebook",
+        "category": "Stationery",
+        "quantity": 63,
+        "price": 254.29,
+        "expiry": "2024-09-13"
+    },
+    {
+        "stockID": "S022",
+        "name": "Thermometer",
+        "category": "Healthcare",
+        "quantity": 94,
+        "price": 321.28,
+        "expiry": "2025-07-06"
+    },
+    {
+        "stockID": "S023",
+        "name": "Notebook",
+        "category": "Stationery",
+        "quantity": 39,
+        "price": 34.88,
+        "expiry": "2025-09-17"
+    },
+    {
+        "stockID": "S024",
+        "name": "Bandages",
+        "category": "Healthcare",
+        "quantity": 53,
+        "price": 24.21,
+        "expiry": "2024-12-26"
+    },
+    {
+        "stockID": "S025",
+        "name": "Milk",
+        "category": "Groceries",
+        "quantity": 81,
+        "price": 427.02,
+        "expiry": "2024-10-19"
+    },
+    {
+        "stockID": "S026",
+        "name": "Oil",
+        "category": "Groceries",
+        "quantity": 73,
+        "price": 84.93,
+        "expiry": "2024-08-09"
+    },
+    {
+        "stockID": "S027",
+        "name": "Laptop",
+        "category": "Electronics",
+        "quantity": 68,
+        "price": 59.97,
+        "expiry": "2024-05-29"
+    },
+    {
+        "stockID": "S028",
+        "name": "Wheat",
+        "category": "Groceries",
+        "quantity": 5,
+        "price": 272.25,
+        "expiry": "2024-07-21"
+    },
+    {
+        "stockID": "S029",
+        "name": "Shirt",
+        "category": "Clothing",
+        "quantity": 48,
+        "price": 282.14,
+        "expiry": "2024-06-12"
+    },
+    {
+        "stockID": "S030",
+        "name": "Monitor",
+        "category": "Electronics",
+        "quantity": 28,
+        "price": 397.33,
+        "expiry": "2025-04-12"
+    },
+    {
+        "stockID": "S031",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 46,
+        "price": 226.41,
+        "expiry": "2024-05-14"
+    },
+    {
+        "stockID": "S032",
+        "name": "Thermometer",
+        "category": "Healthcare",
+        "quantity": 39,
+        "price": 275.53,
+        "expiry": "2024-03-20"
+    },
+    {
+        "stockID": "S033",
+        "name": "Bandages",
+        "category": "Healthcare",
+        "quantity": 6,
+        "price": 107.12,
+        "expiry": "2024-11-09"
+    },
+    {
+        "stockID": "S034",
+        "name": "Headphones",
+        "category": "Electronics",
+        "quantity": 58,
+        "price": 56.42,
+        "expiry": "2024-01-19"
+    },
+    {
+        "stockID": "S035",
+        "name": "Pants",
+        "category": "Clothing",
+        "quantity": 62,
+        "price": 211.15,
+        "expiry": "2025-02-15"
+    },
+    {
+        "stockID": "S036",
+        "name": "Sanitizer",
+        "category": "Healthcare",
+        "quantity": 85,
+        "price": 71.89,
+        "expiry": "2025-04-13"
+    },
+    {
+        "stockID": "S037",
+        "name": "Eraser",
+        "category": "Stationery",
+        "quantity": 14,
+        "price": 62.29,
+        "expiry": "2025-03-01"
+    },
+    {
+        "stockID": "S038",
+        "name": "Shirt",
+        "category": "Clothing",
+        "quantity": 16,
+        "price": 325.28,
+        "expiry": "2024-03-23"
+    },
+    {
+        "stockID": "S039",
+        "name": "Pants",
+        "category": "Clothing",
+        "quantity": 36,
+        "price": 264.04,
+        "expiry": "2025-03-25"
+    },
+    {
+        "stockID": "S040",
+        "name": "Bandages",
+        "category": "Healthcare",
+        "quantity": 65,
+        "price": 271.44,
+        "expiry": "2025-06-08"
+    },
+    {
+        "stockID": "S041",
+        "name": "Thermometer",
+        "category": "Healthcare",
+        "quantity": 65,
+        "price": 456.05,
+        "expiry": "2024-01-19"
+    },
+    {
+        "stockID": "S042",
+        "name": "Laptop",
+        "category": "Electronics",
+        "quantity": 43,
+        "price": 424.23,
+        "expiry": "2025-10-08"
+    },
+    {
+        "stockID": "S043",
+        "name": "Bandages",
+        "category": "Healthcare",
+        "quantity": 48,
+        "price": 185.71,
+        "expiry": "2025-12-23"
+    },
+    {
+        "stockID": "S044",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 73,
+        "price": 253.49,
+        "expiry": "2024-12-04"
+    },
+    {
+        "stockID": "S045",
+        "name": "Rice",
+        "category": "Groceries",
+        "quantity": 36,
+        "price": 15.87,
+        "expiry": "2024-07-10"
+    },
+    {
+        "stockID": "S046",
+        "name": "Shoes",
+        "category": "Clothing",
+        "quantity": 57,
+        "price": 311.12,
+        "expiry": "2025-08-30"
+    },
+    {
+        "stockID": "S047",
+        "name": "Jacket",
+        "category": "Clothing",
+        "quantity": 29,
+        "price": 12.77,
+        "expiry": "2024-12-23"
+    },
+    {
+        "stockID": "S048",
+        "name": "Marker",
+        "category": "Stationery",
+        "quantity": 86,
+        "price": 117.25,
+        "expiry": "2024-04-21"
+    },
+    {
+        "stockID": "S049",
+        "name": "T-shirt",
+        "category": "Clothing",
+        "quantity": 62,
+        "price": 143.42,
+        "expiry": "2024-05-23"
+    },
+    {
+        "stockID": "S050",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 14,
+        "price": 395.84,
+        "expiry": "2024-07-12"
+    },
+    {
+        "stockID": "S051",
+        "name": "Marker",
+        "category": "Stationery",
+        "quantity": 79,
+        "price": 401.54,
+        "expiry": "2025-08-11"
+    },
+    {
+        "stockID": "S052",
+        "name": "T-shirt",
+        "category": "Clothing",
+        "quantity": 58,
+        "price": 174.09,
+        "expiry": "2025-07-06"
+    },
+    {
+        "stockID": "S053",
+        "name": "Headphones",
+        "category": "Electronics",
+        "quantity": 88,
+        "price": 110.78,
+        "expiry": "2025-11-25"
+    },
+    {
+        "stockID": "S054",
+        "name": "T-shirt",
+        "category": "Clothing",
+        "quantity": 15,
+        "price": 125.33,
+        "expiry": "2025-07-01"
+    },
+    {
+        "stockID": "S055",
+        "name": "Headphones",
+        "category": "Electronics",
+        "quantity": 50,
+        "price": 97.98,
+        "expiry": "2024-07-15"
+    },
+    {
+        "stockID": "S056",
+        "name": "Eraser",
+        "category": "Stationery",
+        "quantity": 32,
+        "price": 478.8,
+        "expiry": "2025-07-17"
+    },
+    {
+        "stockID": "S057",
+        "name": "Mask",
+        "category": "Healthcare",
+        "quantity": 37,
+        "price": 13.48,
+        "expiry": "2024-03-01"
+    },
+    {
+        "stockID": "S058",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 47,
+        "price": 132.51,
+        "expiry": "2024-01-01"
+    },
+    {
+        "stockID": "S059",
+        "name": "Laptop",
+        "category": "Electronics",
+        "quantity": 39,
+        "price": 117.39,
+        "expiry": "2024-12-01"
+    },
+    {
+        "stockID": "S060",
+        "name": "T-shirt",
+        "category": "Clothing",
+        "quantity": 9,
+        "price": 80.89,
+        "expiry": "2025-12-31"
+    },
+    {
+        "stockID": "S061",
+        "name": "Thermometer",
+        "category": "Healthcare",
+        "quantity": 44,
+        "price": 135.31,
+        "expiry": "2024-07-08"
+    },
+    {
+        "stockID": "S062",
+        "name": "Pencil",
+        "category": "Stationery",
+        "quantity": 32,
+        "price": 134.22,
+        "expiry": "2024-11-22"
+    },
+    {
+        "stockID": "S063",
+        "name": "Bandages",
+        "category": "Healthcare",
+        "quantity": 45,
+        "price": 18.69,
+        "expiry": "2025-04-11"
+    },
+    {
+        "stockID": "S064",
+        "name": "Notebook",
+        "category": "Stationery",
+        "quantity": 41,
+        "price": 412.67,
+        "expiry": "2024-07-15"
+    },
+    {
+        "stockID": "S065",
+        "name": "Notebook",
+        "category": "Stationery",
+        "quantity": 39,
+        "price": 360.96,
+        "expiry": "2025-04-17"
+    },
+    {
+        "stockID": "S066",
+        "name": "Sugar",
+        "category": "Groceries",
+        "quantity": 46,
+        "price": 290.95,
+        "expiry": "2024-03-06"
+    },
+    {
+        "stockID": "S067",
+        "name": "Camera",
+        "category": "Electronics",
+        "quantity": 90,
+        "price": 267.98,
+        "expiry": "2024-12-01"
+    },
+    {
+        "stockID": "S068",
+        "name": "Wheat",
+        "category": "Groceries",
+        "quantity": 45,
+        "price": 474.27,
+        "expiry": "2024-08-08"
+    },
+    {
+        "stockID": "S069",
+        "name": "Thermometer",
+        "category": "Healthcare",
+        "quantity": 47,
+        "price": 38.75,
+        "expiry": "2025-09-14"
+    },
+    {
+        "stockID": "S070",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 36,
+        "price": 464.72,
+        "expiry": "2025-07-17"
+    },
+    {
+        "stockID": "S071",
+        "name": "Pen",
+        "category": "Stationery",
+        "quantity": 31,
+        "price": 241.53,
+        "expiry": "2025-05-20"
+    },
+    {
+        "stockID": "S072",
+        "name": "Sugar",
+        "category": "Groceries",
+        "quantity": 28,
+        "price": 21.48,
+        "expiry": "2024-05-17"
+    },
+    {
+        "stockID": "S073",
+        "name": "Marker",
+        "category": "Stationery",
+        "quantity": 35,
+        "price": 361.1,
+        "expiry": "2024-05-29"
+    },
+    {
+        "stockID": "S074",
+        "name": "Pen",
+        "category": "Stationery",
+        "quantity": 44,
+        "price": 9.01,
+        "expiry": "2024-09-16"
+    },
+    {
+        "stockID": "S075",
+        "name": "Mask",
+        "category": "Healthcare",
+        "quantity": 92,
+        "price": 151.14,
+        "expiry": "2024-12-31"
+    },
+    {
+        "stockID": "S076",
+        "name": "T-shirt",
+        "category": "Clothing",
+        "quantity": 93,
+        "price": 346.02,
+        "expiry": "2024-05-11"
+    },
+    {
+        "stockID": "S077",
+        "name": "Mask",
+        "category": "Healthcare",
+        "quantity": 88,
+        "price": 230.06,
+        "expiry": "2025-03-07"
+    },
+    {
+        "stockID": "S078",
+        "name": "Wheat",
+        "category": "Groceries",
+        "quantity": 35,
+        "price": 348.39,
+        "expiry": "2025-03-18"
+    },
+    {
+        "stockID": "S079",
+        "name": "Laptop",
+        "category": "Electronics",
+        "quantity": 20,
+        "price": 434.06,
+        "expiry": "2025-06-17"
+    },
+    {
+        "stockID": "S080",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 28,
+        "price": 245.27,
+        "expiry": "2025-11-16"
+    },
+    {
+        "stockID": "S081",
+        "name": "Camera",
+        "category": "Electronics",
+        "quantity": 9,
+        "price": 183.22,
+        "expiry": "2024-08-11"
+    },
+    {
+        "stockID": "S082",
+        "name": "Rice",
+        "category": "Groceries",
+        "quantity": 32,
+        "price": 335.43,
+        "expiry": "2024-10-07"
+    },
+    {
+        "stockID": "S083",
+        "name": "T-shirt",
+        "category": "Clothing",
+        "quantity": 85,
+        "price": 282.88,
+        "expiry": "2025-11-26"
+    },
+    {
+        "stockID": "S084",
+        "name": "Wheat",
+        "category": "Groceries",
+        "quantity": 61,
+        "price": 225.61,
+        "expiry": "2024-03-18"
+    },
+    {
+        "stockID": "S085",
+        "name": "Jacket",
+        "category": "Clothing",
+        "quantity": 31,
+        "price": 456.06,
+        "expiry": "2024-01-03"
+    },
+    {
+        "stockID": "S086",
+        "name": "Eraser",
+        "category": "Stationery",
+        "quantity": 36,
+        "price": 107.75,
+        "expiry": "2025-07-31"
+    },
+    {
+        "stockID": "S087",
+        "name": "Phone",
+        "category": "Electronics",
+        "quantity": 4,
+        "price": 230.5,
+        "expiry": "2025-05-30"
+    },
+    {
+        "stockID": "S088",
+        "name": "Pants",
+        "category": "Clothing",
+        "quantity": 40,
+        "price": 311.8,
+        "expiry": "2025-11-15"
+    },
+    {
+        "stockID": "S089",
+        "name": "Thermometer",
+        "category": "Healthcare",
+        "quantity": 82,
+        "price": 56.57,
+        "expiry": "2025-10-28"
+    },
+    {
+        "stockID": "S090",
+        "name": "Marker",
+        "category": "Stationery",
+        "quantity": 60,
+        "price": 336.72,
+        "expiry": "2024-09-07"
+    },
+    {
+        "stockID": "S091",
+        "name": "Eraser",
+        "category": "Stationery",
+        "quantity": 34,
+        "price": 248.13,
+        "expiry": "2024-10-25"
+    },
+    {
+        "stockID": "S092",
+        "name": "Laptop",
+        "category": "Electronics",
+        "quantity": 99,
+        "price": 489.04,
+        "expiry": "2025-10-08"
+    },
+    {
+        "stockID": "S093",
+        "name": "Camera",
+        "category": "Electronics",
+        "quantity": 13,
+        "price": 268.25,
+        "expiry": "2024-10-04"
+    },
+    {
+        "stockID": "S094",
+        "name": "T-shirt",
+        "category": "Clothing",
+        "quantity": 36,
+        "price": 300.01,
+        "expiry": "2025-12-03"
+    },
+    {
+        "stockID": "S095",
+        "name": "Pants",
+        "category": "Clothing",
+        "quantity": 20,
+        "price": 257.78,
+        "expiry": "2025-08-14"
+    },
+    {
+        "stockID": "S096",
+        "name": "Wheat",
+        "category": "Groceries",
+        "quantity": 7,
+        "price": 67.57,
+        "expiry": "2024-04-15"
+    },
+    {
+        "stockID": "S097",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 2,
+        "price": 361.03,
+        "expiry": "2025-03-06"
+    },
+    {
+        "stockID": "S098",
+        "name": "Bandages",
+        "category": "Healthcare",
+        "quantity": 33,
+        "price": 95.02,
+        "expiry": "2025-06-08"
+    },
+    {
+        "stockID": "S099",
+        "name": "Vitamins",
+        "category": "Healthcare",
+        "quantity": 26,
+        "price": 9.34,
+        "expiry": "2025-08-25"
+    },
+    {
+        "stockID": "S100",
+        "name": "Wheat",
+        "category": "Groceries",
+        "quantity": 8,
+        "price": 469.45,
+        "expiry": "2025-07-01"
+    }
+]
