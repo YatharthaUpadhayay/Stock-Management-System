@@ -114,18 +114,19 @@ th {
   opacity: 1;
 }
 
-/* .stockInputField{
+#stockInputField{
   display: none;
-} */
+}
 
-.stockInputField th{
+#stockInputField th{
   padding: 0px 8px;
   overflow: hidden;
 }
 
-.stockInputField th input{
+#stockInputField th input{
   width: 100%;
   background: inherit;
+  color:#090909;
   border: none;
 }
 
@@ -146,7 +147,7 @@ th {
   border-radius: 50%;
   aspect-ratio: 1;
   background: #e8e8e8;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #666;
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 
@@ -206,4 +207,13 @@ th {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 5rem;
+}
+
+.toolsContainer::-webkit-scrollbar{
+  display: none;
+}
+
+#cancelNewTable::after, #cancelNewTable::before {
+  background-color: rgb(252, 117, 117);
 }
