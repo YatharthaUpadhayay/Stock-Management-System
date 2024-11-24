@@ -149,6 +149,13 @@ th {
   background: #e8e8e8;
   border: 1px solid #666;
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.toolsCircle:focus {
+  outline: none;
+
 }
 
 .toolsCircle:active {
