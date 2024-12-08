@@ -44,6 +44,7 @@ tr:nth-child(even) {
 
 td {
   border-right: 1px solid rgb(203, 203, 203);
+  font-weight: bold;
 }
 
 th {
@@ -70,66 +71,36 @@ th {
   line-height: 1px;
 }
 
-.addNewStock {
-  background: rgb(205, 206, 205);
-  width: 100%;
-  margin: 0%;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  display: inline-block;
+.addNewRowButton{
+  background: rgb(255, 255, 255);
+  display: block;
   text-align: center;
   padding: 4px 0px;
-  border-radius: 2px;
-  border-bottom: none;
-  border-right: none;
-  border-left: none;
-  position: relative;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-  color: black;
-  transition: 0.3s ease all;
-  z-index: 1;
+  cursor: pointer;
 }
 
-.addNewStock:before {
-  transition: 0.5s all ease;
+.formForNewRowContainer {
   position: absolute;
-  top: 0;
-  left: 50%;
-  right: 50%;
-  bottom: 0;
-  opacity: 0;
-  content: '';
-  background-color: var(--accent-color);
-  z-index: -1;
+  height: 100vh;
+  top: 0%;
+  z-index: 30;
+  background: rgba(255, 0, 0, 0.7);
 }
 
-.addNewStock:hover {
-  color: white;
+.formForNewRow {
+  padding: 8px 16px;
+  border-radius: 16px;
+  background: white;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.addNewStock:hover:before {
-  transition: 0.5s all ease;
-  left: 0;
-  right: 0;
-  opacity: 1;
-}
-
-#stockInputField{
-  display: none;
-}
-
-#stockInputField th{
-  padding: 0px 8px;
-  overflow: hidden;
-}
-
-#stockInputField th input{
+.formForNewRow > button, select, input, label{
+  display: block;
   width: 100%;
-  background: inherit;
-  color:#090909;
-  border: none;
 }
-
 
 /* Button Styling */
 .toolsCircle {

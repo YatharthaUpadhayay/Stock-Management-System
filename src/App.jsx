@@ -15,7 +15,13 @@ function App() {
     let tableName = document.getElementById('tableTitle').value;
     if(tableName != ''){
       tableName = tableName.charAt(0).toUpperCase() + tableName.slice(1);
-      setTables([...tables, <StocksList key={tables.length} tableName={tableName} />]);
+      setTables([...tables, 
+        <StocksList 
+          key={tables.length} 
+          tableName={tableName} 
+          columns={[['Name', 'text'], ['Category', 'dropdown'], ['Quantity', 'number'], ['Price', 'number'], ['Expiry Date', 'date']]} 
+          categories={['Snacks', 'Medical', 'Accessories', 'Drinks']}
+        />]);
       document.getElementById('newTableCreator').style.display = 'none';
       document.getElementById('newTableCreatorButton').style.display = 'block';
     }
@@ -29,7 +35,7 @@ function App() {
 
   return (
     <>
-      <h1 className='text-red-600'>Stocks Management System</h1>
+      <h1>Stocks Management System</h1>
       <ToolBar />
       {tables}
       <div style={{'height':'50vh', 'display':'grid', 'placeItems':'center'}}>

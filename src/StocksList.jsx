@@ -1,67 +1,98 @@
-import { useEffect, useState } from 'react';
+import {useRef, useState, useEffect } from 'react';
 import Stock from './Stock'
 
-function StocksList({tableName}) {
-    const [rows, setRows] = new useState([]);
-    const [noOfColumns, setNoOfColumns] = new useState([6]);
-    const [serialNo, setSerialNo] = new useState(0);
+// Important parameters and functions
+// array of rows
+// no of columns
+// name of the columns in an array
+// id or serial number
+// stock inputs and buttons
+// enable editing function
+// create new Stock function
 
-    const enableEditing = () => {
-        setSerialNo(rows.length+1);
-        document.getElementById('stockInputField').style.display = 'table-row';
-        document.getElementById('stockInputFieldButton').style.display = 'table-row';
-        document.getElementById('name').focus();
+
+function StocksList(props) {
+    // Important parameters
+    const [rowsArray, setRowsArray] = useState([]);
+    const [noOfColumns, setNoOfColumns] = useState(6);
+    const [colSpecs, setColSpecs] = useState([]);
+    const [serialNumber, setSerialNumber] = useState(1);
+    
+    useEffect(() => {
+        setColSpecs(props.columns);
+    }, [props.columns]);
+    
+    // Reference to Stock input and buttons
+    const stockInput = useRef(null);
+    const stockInputButton = useRef(null);
+    
+    // Important Functions
+    const enableEditing = ()=>{
+    
     }
-
-    const createNewStock = () => {
-        let name = document.getElementById('name').value;
-        let category = document.getElementById('category').value;
-        let quantity = document.getElementById('quantity').value;
-        let price = document.getElementById('price').value;
-        let expiry = document.getElementById('expiry').value;
-        if (name != '' ||
-            category != '' ||
-            quantity != '' ||
-            price != '' ||
-            expiry != '') {
-            setRows([...rows, <Stock key={rows.length} stockID={serialNo} name={name} category={category} quantity={quantity} price={price} expiry={expiry} />]);
-            document.getElementById('stockInputField').style.display = 'none';
-            document.getElementById('stockInputFieldButton').style.display = 'none';
-        }
+    
+    const createStock = ()=>{
+    
     }
-
+    
     return (
-        <div className="tableContainer">
-            <p className="tableTitle">{tableName}</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Category</th>
-                        <th>Quantity</th>
-                        <th>Price</th>
-                        <th>Expiry Date</th>
-                    </tr>
-                </thead>
-                <tbody id='stockContainer'>
-                    {rows}
-                    <tr id='stockInputField'>
-                        <th>{serialNo}</th>
-                        <th><input type="text" id='name' /></th>
-                        <th><input type="text" id='category' /></th>
-                        <th><input type="text" id='quantity' /></th>
-                        <th><input type="text" id='price' /></th>
-                        <th><input type="text" id='expiry' /></th>
-                    </tr>
-                    <tr id='stockInputFieldButton' style={{ 'display': 'none' }}>
-                        <th colSpan={noOfColumns}>
-                            <button onClick={createNewStock} style={{ 'borderRadius': '12px', 'border': '1px solid #666', 'aspectRatio': 'auto', 'padding': '4px 16px', 'boxShadow': 'none', 'margin': '16px 0px' }} className='toolsCircle'>Create</button>
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
-            <button className='addNewStock' onClick={enableEditing}>+</button>
+        <div className='tableContainer'>
+            {/* Form for new row creation */}
+            <div style={{position:'absolute'}}>
+                <div className='formForNewRowContainer'>
+                    <form className='formForNewRow'>
+                        <h1 style={{textAlign:'center'}}>Create new Row</h1>
+                        {
+                            props.columns.map((col ,index)=>{
+                                if(col[1]  == 'dropdown'){
+                                    return (
+                                        <>
+                                            <label htmlFor={col[0]}>{col[0]}</label>  
+                                            <select>
+                                                {
+                                                    props.categories.map((category, index)=>{
+                                                        return (<option value={category}>{category.charAt(0).toUpperCase() + category.slice(1)}</option>)
+                                                    })
+                                                }
+                                            </select>
+                                        </>
+                                    )
+                                }
+                                return (
+                                    <>
+                                        <label htmlFor={col[0]}>{col[0]}</label>
+                                        <input type={col[1]} />
+                                    </>
+                                )
+                            })
+                        }
+                        <button type='submit'>Create</button>
+                    </form>
+                </div>
+            </div>
+
+            {/* Content of the Table */}
+            <div style={{display:'flex', alignItems:'center', justifyContent:'space-between', padding:'0px 16px'}}>
+                <p className='tableTitle'>{props.tableName}</p>
+                <i className="fa-solid fa-bars" style={{color:'white'}}></i>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            {
+                                props.columns.map((col, index)=>{
+                                    return (
+                                        <td key={index}>{col[0]}</td>
+                                    )
+                                })
+                            }
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <i className="fa-solid fa-plus addNewRowButton"></i>
+            </div>
         </div>
     )
 }
